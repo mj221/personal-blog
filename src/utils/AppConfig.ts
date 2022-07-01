@@ -6,5 +6,5 @@ export const AppConfig = {
   url: 'https://mj221-portfolio.herokuapp.com/',
   locale: 'en',
   author: 'Anonymous',
-  pagination_size: 10,
+  pagination_size: 5,
 };
