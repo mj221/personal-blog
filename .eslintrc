@@ -2,8 +2,10 @@
   // Configuration for JavaScript files
   "extends": [
     "airbnb-base",
-    "next/core-web-vitals",
-    "plugin:prettier/recommended"
+    // "next/core-web-vitals",
+    "react/jsx-filename-extension",
+    "plugin:prettier/recommended",
+    "react/no-danger"
   ],
   "rules": {
     "prettier/prettier": [
@@ -20,8 +22,10 @@
       "plugins": ["@typescript-eslint", "unused-imports"],
       "extends": [
         "airbnb-typescript",
-        "next/core-web-vitals",
-        "plugin:prettier/recommended"
+        // "next/core-web-vitals",
+        "plugin:prettier/recommended",
+        "react/no-danger",
+        "react/jsx-filename-extension"
       ],
       "parserOptions": {
         "project": "./tsconfig.json"
