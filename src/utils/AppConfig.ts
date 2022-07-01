@@ -1,10 +1,10 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Next.js Boilerplate',
+  site_name: 'Blog',
+  title: 'Personal Blog',
   description:
-    'Starter code for your Next.js blog Boilerplate with Tailwind CSS',
-  url: 'https://example.com',
+    'By MJ LEE',
+  url: 'https://mj221-portfolio.herokuapp.com/',
   locale: 'en',
   author: 'Anonymous',
-  pagination_size: 5,
+  pagination_size: 10,
 };
